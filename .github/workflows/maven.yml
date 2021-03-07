@@ -29,7 +29,7 @@ jobs:
       uses: anothrNick/github-tag-action@1.26.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CUSTOM_TAG: v${{ github.event.inputs.version }}
+        CUSTOM_TAG: ${{ github.event.inputs.version }}
     - name: Build with Maven
       run: | 
        ./compileSpigot.sh
