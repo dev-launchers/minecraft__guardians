@@ -1,0 +1,5 @@
+name: GuardPrototype
+author: Zorro909
+main: devlaunchers.guards.GuardsPlugin
+version: 0.1
+api-version: 1.16
